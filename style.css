@@ -1,0 +1,106 @@
+.center{
+    display: grid;
+    grid-template-areas: 'comment1 comment1 comment1 comment1 comment2 comment5'
+    'comment3 comment4 comment4 comment4 comment4 comment5'
+    ;
+    gap: 17px;
+    padding: 90px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    
+    background-color: rgb(205, 223, 217);
+   
+    
+
+}
+
+.comment1{
+    color: white;
+    background-color: rgb(64, 13, 100);
+    grid-area: comment1;
+    padding: 20px;
+
+
+    
+    
+
+}
+
+.comment2{
+    color: white;
+    background-color: rgb(32, 36, 36);
+    grid-area: comment2;
+    padding: 20px;
+}
+
+.comment3{
+    color: rgb(24, 32, 32);
+    background-color: white;
+    grid-area: comment3;
+    padding: 20px;
+}
+
+.comment4{
+    color: white;
+    background-color: rgb(10, 10, 10);
+    grid-area: comment4;
+    padding: 20px;
+}
+
+.comment5{
+    color: rgb(24, 32, 32);
+    background-color: white;
+    grid-area: comment5;
+    padding: 20px;
+
+}
+
+img{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    
+    
+}
+
+.font1{
+    font-size: 20px;
+}
+.font2{
+    font-size: 20px;
+}
+.font3{
+    font-size: 20px;
+}
+.font4{
+    font-size: 20px;
+}
+.font5{
+    font-size: 20px;
+    
+}
+.p1{
+    display: inline-block;
+    padding: 10px;
+}
+.p2{
+    display: inline-block;
+    padding: 7px;
+    
+    
+}
+.p3{
+    display: inline-block;
+    padding: 7px;
+}
+.p4{
+    display: inline-block;
+    padding: 10px;
+}
+.p5{
+    display: inline-block;
+    padding: 10px;
+}
+
