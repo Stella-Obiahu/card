@@ -21,6 +21,10 @@
     background-color: rgb(64, 13, 100);
     grid-area: comment1;
     padding: 20px;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    border-top-right-radius: 1em;
+    border-top-left-radius: 1em;
 }
 
 .comment2{
@@ -28,6 +32,10 @@
     background-color: rgb(32, 36, 36);
     grid-area: comment2;
     padding: 20px;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    border-top-right-radius: 1em;
+    border-top-left-radius: 1em;
 }
 
 .comment3{
@@ -35,6 +43,10 @@
     background-color: white;
     grid-area: comment3;
     padding: 20px;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    border-top-right-radius: 1em;
+    border-top-left-radius: 1em;
 }
 
 .comment4{
@@ -42,6 +54,10 @@
     background-color: rgb(10, 10, 10);
     grid-area: comment4;
     padding: 20px;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    border-top-right-radius: 1em;
+    border-top-left-radius: 1em;
 }
 
 .comment5{
@@ -49,6 +65,10 @@
     background-color: white;
     grid-area: comment5;
     padding: 20px;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    border-top-right-radius: 1em;
+    border-top-left-radius: 1em;
 }
 
 img{
@@ -93,5 +113,25 @@ img{
     display: inline-block;
     padding: 10px;
 }
-
+@media only screen and (max-width: 500px){
+    .center{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr 1.3fr 1.1fr 1.6fr 2fr;
+        grid-template-areas: 
+        "comment1"
+        "comment2"
+        "comment3"
+        "comment4"
+        "comment5";
+        width: 22em;
+        margin-left: -8rem;
+        padding-right: 2rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    .comment1{
+        width: 20em;
+    }
+}
 
