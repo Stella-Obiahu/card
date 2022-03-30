@@ -8,14 +8,9 @@
     padding-left: 150px;
     padding-right: 150px;
     padding-top: 150px;
-    padding-bottom: 150px;
-    
+    padding-bottom: 150px; 
     background-color: rgb(205, 223, 217);
-   
-    
-
 }
-
 .comment1{
     color: white;
     background-color: rgb(64, 13, 100);
@@ -25,6 +20,9 @@
     border-bottom-right-radius: 1em;
     border-top-right-radius: 1em;
     border-top-left-radius: 1em;
+    background-image: url(images/quote.svg);
+    background-repeat: no-repeat;
+    background-position: right 6rem top 2em ;
 }
 
 .comment2{
@@ -131,7 +129,7 @@ img{
         padding-bottom: 2rem;
     }
     .comment1{
-        width: 20em;
+        background-position: right 2rem top 1em ;
     }
 }
 
