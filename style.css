@@ -113,7 +113,7 @@ img{
 }
 .copyright{
     text-align: center;
-    background-color: rgb(205, 223, 217);
+   padding-left: 35em;
     font-size: 20px;
     font-weight: 800;
 }
@@ -138,7 +138,10 @@ img{
         background-position: right 2rem top 1em ;
     }
     .copyright{
-        width: 22em;
+        padding-left: 5rem;
+        width: 21.1em;
+        
+    
     }
 }
 
