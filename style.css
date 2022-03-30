@@ -21,11 +21,6 @@
     background-color: rgb(64, 13, 100);
     grid-area: comment1;
     padding: 20px;
-
-
-    
-    
-
 }
 
 .comment2{
@@ -54,15 +49,12 @@
     background-color: white;
     grid-area: comment5;
     padding: 20px;
-
 }
 
 img{
     border-radius: 50%;
     height: 40px;
-    width: 40px;
-    
-    
+    width: 40px;  
 }
 
 .font1{
@@ -87,9 +79,7 @@ img{
 }
 .p2{
     display: inline-block;
-    padding: 7px;
-    
-    
+    padding: 7px;  
 }
 .p3{
     display: inline-block;
@@ -103,4 +93,5 @@ img{
     display: inline-block;
     padding: 10px;
 }
+
 
