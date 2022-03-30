@@ -111,6 +111,12 @@ img{
     display: inline-block;
     padding: 10px;
 }
+.copyright{
+    text-align: center;
+    background-color: rgb(205, 223, 217);
+    font-size: 20px;
+    font-weight: 800;
+}
 @media only screen and (max-width: 500px){
     .center{
         display: grid;
@@ -130,6 +136,9 @@ img{
     }
     .comment1{
         background-position: right 2rem top 1em ;
+    }
+    .copyright{
+        width: 22em;
     }
 }
 
